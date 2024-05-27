@@ -39,6 +39,7 @@ alert("Your Q3 Answer is Correct")
 else {
     alert("Your Q3 Answer is !!Wrong!!")
 }
+alert("Your score is " + score++)
 }
 
 
