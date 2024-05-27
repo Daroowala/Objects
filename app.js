@@ -14,8 +14,6 @@ else {
 
 
 
-
-
 var rightAnswer2 = document.getElementById("q2-a1"); 
 var qus2Answer2 = document.getElementById("q2-a2");
 var qus2Answer2 = document.getElementById("q2-a3");
@@ -27,7 +25,24 @@ alert("Your Q2 Answer is Correct")
 else {
     alert("Your Q2 Answer is !!Wrong!!")
 }
+
+
+
+var rightAnswer3 = document.getElementById("q3-a4"); 
+var qus3Answer1 = document.getElementById("q2-a2");
+var qus3Answer2 = document.getElementById("q2-a3");
+var qus3Answer4 = document.getElementById("q2-a4");
+if(rightAnswer3.checked == true){
+score++
+alert("Your Q3 Answer is Correct")
 }
+else {
+    alert("Your Q3 Answer is !!Wrong!!")
+}
+}
+
+
+
 // var myQuestion = [
 //     {
 //         Question: "What is your name",
